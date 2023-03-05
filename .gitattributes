@@ -1,0 +1,12 @@
+* text=auto
+
+*.md              text diff=markdown
+*.json            text
+*.txt             text
+
+package-lock.json text -diff
+
+*.cjs             text
+*.mjs             text
+*.js              text
+*.ts              text
